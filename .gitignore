@@ -1,0 +1,89 @@
+# Maven
+target/
+*.jar
+*.war
+*.zip
+*.tar.gz
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.c9/
+*.launch
+.project
+.pydevproject
+.settings/
+.sts4-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iwx
+out/
+.gradle/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Node / Angular
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/browser/*
+
+# Quarkus
+application.properties.local
+.quarkus/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.sql
+database/
+
+# FIX
+quickfixj.log
+runtime/
+
+# External scenario outputs
+external-scenarios/results/*.txt
+
+# Generated validation reports
+validation-corrected-*.txt
+
+
+broker-front-end/
+exchange-front-end/
+scripts/
+tests/broker-back-end/
+external-scenarios/
+loadtest-dashboard/
